@@ -1,0 +1,38 @@
+
+.pageLayout, html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    background-color: rgb(247, 247, 247);
+
+}
+
+.sidebars {
+    flex: 1 1 auto;
+}
+
+.calcColumn {
+    flex: 1 1 auto;
+    padding: 10vh 0;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.calcBody {
+    aspect-ratio: 2 / 3;
+    background-color: rgb(247, 247, 247);
+    border-radius: 3vh;
+    box-shadow: 20px 20px 7px rgb(211, 211, 211);
+}
+
+.calcFace {
+    height: 100%;
+    width: 100%;
+    border-radius: 3vh;
+    box-shadow: inset 4px 4px 2px white;
+}
+
+
+
