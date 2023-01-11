@@ -24,21 +24,33 @@
     aspect-ratio: 2 / 3;
     background-color: rgb(247, 247, 247);
     border-radius: 3vh;
-    box-shadow: 20px 20px 7px rgb(211, 211, 211);
+    box-shadow: 4vh 4vh 2vh rgb(211, 211, 211);
 }
 
-.calcFace {
+.calcFaceHilight {
     height: 100%;
     width: 100%;
     border-radius: 3vh;
-    box-shadow: inset 4px 4px 2px white;
+    box-shadow: inset 1vh 1vh 0.5vh white;
 }
 
 .calcFaceShadow {
     height: 100%;
     width: 100%;
     border-radius: 3vh;
-    box-shadow: inset -4px -4px 2px rgb(190, 190, 190)
+    box-shadow: inset -1vh -1vh 0.5vh rgb(190, 190, 190)
+}
+
+#calcFace {
+    height: 100%;
+    width: 100%;
+    padding: 2vh 2vh;
+}
+
+#screen {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
 }
 
 
